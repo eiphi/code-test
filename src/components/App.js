@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { getData } from '../actions';
 import TopBar from './TopBar';
+import EmployeesList from './EmployeesList';
 
 const App = ({ getData, companyInfo, employees }) => {
   useEffect(() => {
@@ -11,7 +12,12 @@ const App = ({ getData, companyInfo, employees }) => {
   if (!companyInfo) {
     return <div>Loading...</div>;
   }
-  return <TopBar />;
+  return (
+    <>
+      <TopBar />
+      <EmployeesList />
+    </>
+  );
 };
 
 const mapStateToProps = state => {
