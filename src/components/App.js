@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { getData } from '../actions';
+import TopBar from './TopBar';
 
 const App = ({ getData, companyInfo, employees }) => {
   useEffect(() => {
@@ -10,9 +11,7 @@ const App = ({ getData, companyInfo, employees }) => {
   if (!companyInfo) {
     return <div>Loading...</div>;
   }
-  return employees.map(emp => {
-    return <div key={emp.id}>{emp.firstName}</div>;
-  });
+  return <TopBar />;
 };
 
 const mapStateToProps = state => {
