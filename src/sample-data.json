@@ -1,0 +1,129 @@
+{
+  "companyInfo": {
+    "companyName": "Corkery and Sons",
+    "companyMotto": "enterprise benchmark e-commerce",
+    "companyEst": "2006-10-18T02:42:28.362Z"
+  },
+  "employees": [
+    {
+      "id": "3c6bbe69-2e3c-47c6-97a9-eb446d707913",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/lososina/128.jpg",
+      "firstName": "Ella",
+      "lastName": "Nader",
+      "jobTitle": "Chief Creative Officer",
+      "age": 39,
+      "bio": "Asperiores recusandae molestiae facilis. Iure officiis numquam quo. Est odio accusamus dolore itaque eaque occaecati. Sit animi aspernatur inventore autem quaerat qui. Quos placeat ut modi qui. Et impedit velit exercitationem voluptate quia tempore molestiae voluptate aut.",
+      "dateJoined": "2011-01-04T17:28:43.578Z"
+    },
+    {
+      "id": "15c05670-b3cd-4fca-aaab-1aa1dc41e8bf",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/judzhin_miles/128.jpg",
+      "firstName": "Michael",
+      "lastName": "Hansen",
+      "jobTitle": "Human Paradigm Assistant",
+      "age": 53,
+      "bio": "Illum iusto explicabo et. Ullam dolore et iusto. Quae est modi quis non sit et. In id officiis et asperiores. Et a quia voluptates eos qui.",
+      "dateJoined": "2015-07-30T15:13:47.601Z"
+    },
+    {
+      "id": "8155f652-1a3a-4534-8e75-10824e53d369",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bpartridge/128.jpg",
+      "firstName": "Stephanie",
+      "lastName": "Davis",
+      "jobTitle": "Direct Marketing Officer",
+      "age": 36,
+      "bio": "Quibusdam pariatur dignissimos placeat. Eos ad iusto. Velit ut recusandae voluptatem omnis tempora reiciendis consequatur sit quisquam. Quo et architecto consequatur ipsa aperiam culpa aut reiciendis animi.",
+      "dateJoined": "2016-04-22T17:52:24.576Z"
+    },
+    {
+      "id": "b5aef91b-88b9-4424-a430-3a739b8f4b57",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/urrutimeoli/128.jpg",
+      "firstName": "Cooper",
+      "lastName": "Johnson",
+      "jobTitle": "Internal Metrics Consultant",
+      "age": 28,
+      "bio": "Asperiores aliquam id consectetur aut temporibus consectetur a. Pariatur vero ipsam qui accusantium nobis. Odit aspernatur eos et sed eligendi accusantium fugiat.",
+      "dateJoined": "2017-10-27T09:42:36.675Z"
+    },
+    {
+      "id": "55d8eaa3-37a3-4e33-9333-44fd39801ca5",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/smaczny/128.jpg",
+      "firstName": "Sophie",
+      "lastName": "Corwin",
+      "jobTitle": "Dynamic Communications Strategist",
+      "age": 32,
+      "bio": "Velit ut velit excepturi quod sed hic eligendi totam. Eaque blanditiis qui ea accusantium aliquam officia distinctio voluptate. Facilis omnis debitis doloribus qui odio ut et ducimus. Quia soluta eaque. Enim sit sit totam fugiat incidunt expedita. Quam ducimus enim doloribus quo ab.",
+      "dateJoined": "2010-02-27T15:35:58.869Z"
+    },
+    {
+      "id": "b42be1e0-a3ea-42d7-a2b9-1abc86db3429",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/larrygerard/128.jpg",
+      "firstName": "James",
+      "lastName": "Macdonald",
+      "jobTitle": "Chief Creative Facilitator",
+      "age": 62,
+      "bio": "Corporis sint consequuntur tenetur voluptas. Sit in consequatur perferendis. Ullam libero porro sunt sit. Ut itaque inventore libero omnis repudiandae iste sed.",
+      "dateJoined": "2019-05-18T13:09:05.914Z"
+    },
+    {
+      "id": "e5422f35-0bc0-4700-9c15-524f1963cc1a",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mighty55/128.jpg",
+      "firstName": "Jake",
+      "lastName": "Tremblay",
+      "jobTitle": "District Identity Coordinator",
+      "age": 45,
+      "bio": "Numquam ipsum aliquam. Nihil reiciendis rerum explicabo quam quia animi. Et perspiciatis eos. Occaecati consequatur quod pariatur accusamus accusantium maxime consectetur.",
+      "dateJoined": "2016-05-13T01:26:22.977Z"
+    },
+    {
+      "id": "010b0472-fc98-4005-b742-6f6ea983b8b7",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/madshensel/128.jpg",
+      "firstName": "Hayden",
+      "lastName": "Ernser",
+      "jobTitle": "Forward Marketing Coordinator",
+      "age": 50,
+      "bio": "Repudiandae a eos. Dolore similique aut culpa enim beatae blanditiis voluptatem. Voluptas numquam cupiditate consectetur quos magnam voluptas vitae officia.",
+      "dateJoined": "2019-02-27T06:49:35.534Z"
+    },
+    {
+      "id": "a6f070f7-b27e-47b0-aab3-0fc9bf82eefb",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/boxmodel/128.jpg",
+      "firstName": "Piper",
+      "lastName": "Walker",
+      "jobTitle": "Internal Infrastructure Representative",
+      "age": 53,
+      "bio": "Voluptatum repellat delectus dolor et sapiente occaecati quia illum. Tempore nobis aut vero aut error quidem. Voluptatem corporis occaecati totam est atque.",
+      "dateJoined": "2019-02-05T12:27:30.754Z"
+    },
+    {
+      "id": "93fdb40e-8786-48f3-99e4-fc504fca515c",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/geshan/128.jpg",
+      "firstName": "Jesse",
+      "lastName": "Richards",
+      "jobTitle": "Future Paradigm Director",
+      "age": 38,
+      "bio": "Nisi ducimus ipsum dolores rerum doloremque fugiat harum. Harum sint occaecati soluta sit ut magni et. Quisquam rerum a modi et in aut aperiam. Dolores nihil doloremque commodi voluptas ut sunt iure. Magni voluptatem reiciendis et.",
+      "dateJoined": "2014-02-13T04:47:10.049Z"
+    },
+    {
+      "id": "f2890284-6677-4d94-b29c-6268d87438a6",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/eduardostuart/128.jpg",
+      "firstName": "Georgia",
+      "lastName": "Hayes",
+      "jobTitle": "Central Web Manager",
+      "age": 47,
+      "bio": "Officiis temporibus doloremque nisi et dolor earum non amet. Omnis et itaque explicabo sed. Quo et aut nihil.",
+      "dateJoined": "2012-08-30T00:03:42.333Z"
+    },
+    {
+      "id": "c123bd90-51d0-407c-a552-d7b7920272b3",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/drewbyreese/128.jpg",
+      "firstName": "Layla",
+      "lastName": "Towne",
+      "jobTitle": "Principal Solutions Supervisor",
+      "age": 56,
+      "bio": "Similique sint et non quo. Quia minus at et culpa ad ipsam ut expedita quia. Aut quis facere vero voluptatum. Minus libero deleniti dolorum odio porro aut sint ab eius.",
+      "dateJoined": "2018-02-14T21:29:38.811Z"
+    }
+  ]
+}
