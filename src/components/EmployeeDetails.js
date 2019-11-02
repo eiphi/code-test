@@ -13,7 +13,7 @@ const Overlay = styled.div`
 `;
 
 const Dialog = styled.div`
-  max-width: 600px;
+  max-width: 500px;
   position: relative;
   background: white;
   padding: 20px;
@@ -29,6 +29,7 @@ const Name = styled.div`
   font-size: 25px;
   font-weight: bold;
   margin: 0 10px;
+  padding-bottom: 5px;
   border-bottom: 2px solid silver;
 `;
 

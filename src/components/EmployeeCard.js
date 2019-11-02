@@ -9,9 +9,13 @@ const Card = styled.div`
   margin: 10px;
   flex: 1;
   min-width: 300px;
+  max-width: calc(50% - 22px);
   &:hover {
     background: #ffa5006b;
     cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    max-width: 100%;
   }
 `;
 export const Avatar = styled.img`
@@ -27,6 +31,9 @@ const Info = styled.div`
   padding: 10px 15px;
   max-height: 100px;
   overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 `;
 
 const EmployeeCard = ({ employee }) => {

@@ -16,9 +16,12 @@ const CompanyName = styled.span`
 const SecondLine = styled.div`
   display: flex;
 `;
-const CompanyMotto = styled.div``;
+const CompanyMotto = styled.div`
+  margin-right: 20px;
+`;
 const CompanyYear = styled.div`
   margin-left: auto;
+  white-space: nowrap;
 `;
 
 const TopBar = ({ companyInfo }) => {
