@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import EmployeeDetails from './EmployeeDetails';
 
 const Card = styled.div`
   display: flex;
@@ -13,9 +14,10 @@ const Card = styled.div`
     cursor: pointer;
   }
 `;
-const Avatar = styled.img`
+export const Avatar = styled.img`
   max-height: 130px;
   border: 1px solid black;
+  max-width: 130px;
 `;
 const Vitals = styled.div`
   font-size: 18px;
@@ -28,16 +30,26 @@ const Info = styled.div`
 `;
 
 const EmployeeCard = ({ employee }) => {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
-    <Card>
-      <Avatar src={employee.avatar} />
-      <Info>
-        <Vitals>
-          {employee.firstName} {employee.lastName}
-        </Vitals>
-        <div>{employee.bio}</div>
-      </Info>
-    </Card>
+    <>
+      <Card onClick={() => setModalOpen(true)}>
+        <Avatar src={employee.avatar} />
+        <Info>
+          <Vitals>
+            {employee.firstName} {employee.lastName}
+          </Vitals>
+          <div>{employee.bio}</div>
+        </Info>
+      </Card>
+      {modalOpen && (
+        <EmployeeDetails
+          employee={employee}
+          closeModal={() => setModalOpen(false)}
+        />
+      )}
+    </>
   );
 };
 

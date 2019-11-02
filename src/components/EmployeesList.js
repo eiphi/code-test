@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import EmployeeCard from './EmployeeCard';
 import styled from 'styled-components';
+
+import EmployeeCard from './EmployeeCard';
 
 const Container = styled.div`
   padding: 15px 25px;
@@ -11,11 +12,13 @@ const Container = styled.div`
 
 const EmployeesList = ({ employees }) => {
   return (
-    <Container>
-      {employees.map(emp => {
-        return <EmployeeCard key={emp.id} employee={emp} />;
-      })}
-    </Container>
+    <>
+      <Container>
+        {employees.map(emp => {
+          return <EmployeeCard key={emp.id} employee={emp} />;
+        })}
+      </Container>
+    </>
   );
 };
 
